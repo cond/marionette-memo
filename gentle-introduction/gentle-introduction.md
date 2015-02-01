@@ -10,7 +10,10 @@
 
 ### 各画面(機能)の実装
 
+## テクニック
 
+* [テーブルの行のクリックで色(属性)が変わるようにする](#click_change_color)
+* [テーブルの行を削除する際に、フェードアウト効果をつける](#fade_out)
 
 ## コミットごとのメモ
 
@@ -37,6 +40,7 @@ https://github.com/cond/marionette-gentle-introduction/commits/master
 * CollectionViewの代わりに、CompositeViewを使うようにした
 * HTML的には`<ul>`でなく、`<table>`を使って表示する
 
+<a name="click_change_color"></a>
 ### テーブルの行をクリックするとハイライトをオン/オフする
 
 **テキスト**: ”Using Events”の完了時点 (p51)
@@ -46,6 +50,7 @@ https://github.com/cond/marionette-gentle-introduction/commits/master
 * テーブルの行をクリックすると、ハイライトがオン/オフされる。
 * 実装は、ItemViewでclickイベントを拾って、warningクラスをトグルさせている。
 
+<a name="fade_out"></a>
 ### データの削除機能を実装した
 
 **テキスト**: "Animating the Removed ItemView"まで完了 (p61)
