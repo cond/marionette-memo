@@ -15,3 +15,7 @@ Marionetteに関するメモ
 * [Backbone.Marionetteがv2.0.0に](http://lealog.hateblo.jp/entry/2014/06/18/201525)
 * [5分でわかるMarionette.jsのいいところ by koba04](https://speakerdeck.com/koba04/5fen-dewakarumarionette-dot-jsfalseiitokoro)
 * [Marionette.js in Single Page Application by koba04](https://speakerdeck.com/koba04/marionette-dot-js-in-single-page-application)
+
+## Backbone
+
+* [How to keep scroll position between views in Backbone](http://danhough.com/blog/backbone-scroll-position/)
