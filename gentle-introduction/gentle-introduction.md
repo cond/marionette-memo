@@ -14,7 +14,7 @@
 
 ## コミットごとのメモ
 
-コミットごとに、ソースに注釈を記入してある。
+主なコミットごとに、ソースに注釈を記入してある。
 
 https://github.com/cond/marionette-gentle-introduction/commits/master
 
