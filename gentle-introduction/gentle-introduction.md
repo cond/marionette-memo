@@ -45,3 +45,12 @@ https://github.com/cond/marionette-gentle-introduction/commits/master
 
 * テーブルの行をクリックすると、ハイライトがオン/オフされる。
 * 実装は、ItemViewでclickイベントを拾って、warningクラスをトグルさせている。
+
+### データの削除機能を実装した
+
+**テキスト**: "Animating the Removed ItemView"まで完了 (p61)
+
+**ソース**: [removing a contact from the collection](https://github.com/cond/marionette-gentle-introduction/commit/2ad473c38c9f67328e24d6c866578791eacc0d9c)
+
+* Deleteボタンをクリックすると、データを削除する。
+* 削除の際に、フェードアウトのアニメーション効果を表示する。
