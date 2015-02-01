@@ -1,0 +1,8 @@
+### CompositeViewを使って一覧を表示する
+
+**テキスト**: "Using a CompositeView"の完了時点 (p49)
+
+**ソース**: [display contacts list using a CompositeView](https://github.com/cond/marionette-gentle-introduction/commit/2b009b3893dcf3ad6c48ff6617b2d12475f8c669)
+
+* CollectionViewの代わりに、CompositeViewを使うようにした
+* HTML的には<ul>でなく、<table>を使って表示する
