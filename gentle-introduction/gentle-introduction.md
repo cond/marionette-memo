@@ -59,3 +59,14 @@ https://github.com/cond/marionette-gentle-introduction/commits/master
 
 * Deleteボタンをクリックすると、データを削除する。
 * 削除の際に、フェードアウトのアニメーション効果を表示する。
+
+
+### 個別レコード表示画面を実装した
+
+**テキスト**: "Displaying Contacts in Dedicated Views" まで完了 (p68)
+
+**ソース**: [display contact in dedicated view](https://github.com/cond/marionette-gentle-introduction/commit/c7322097ace71fee3047aaa341ceba274f36bfd3)
+
+* 一覧画面で、Showボタンをクリックすると、そのレコードの内容が表示される
+* 個別レコード表示画面のコントローラとビューは Showモジュールで定義している。
+* このバージョンではルータを使っていないので、URLは変わらないままである。
