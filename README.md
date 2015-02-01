@@ -4,6 +4,10 @@ Marionetteに関するメモ
 ## Marionette
 
 
+## メモ
+
+* [Backbone.Marionette.js: A Gentle Introductionのメモ](gentle-introduction/gentle-introduction.md)
+
 ## 情報源
 
 * [実践Backbone.Marionette 現場の悩みと解決まで](http://www.slideshare.net/ryumatsukano/backbonemarionette)
