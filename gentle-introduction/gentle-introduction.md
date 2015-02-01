@@ -36,3 +36,12 @@ https://github.com/cond/marionette-gentle-introduction/commits/master
 
 * CollectionViewの代わりに、CompositeViewを使うようにした
 * HTML的には`<ul>`でなく、`<table>`を使って表示する
+
+### テーブルの行をクリックするとハイライトをオン/オフする
+
+**テキスト**: ”Using Events”の完了時点 (p51)
+
+**ソース**: [toggle highlighting on clicked row](https://github.com/cond/marionette-gentle-introduction/commit/443967a2670e69bc1e2e9addb361c7c0d3e80568)
+
+* テーブルの行をクリックすると、ハイライトがオン/オフされる。
+* 実装は、ItemViewでclickイベントを拾って、warningクラスをトグルさせている。
