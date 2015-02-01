@@ -14,6 +14,7 @@
 
 * [テーブルの行のクリックで色(属性)が変わるようにする](#click_change_color)
 * [テーブルの行を削除する際に、フェードアウト効果をつける](#fade_out)
+* [ルーティングの導入](#routing)
 
 ## コミットごとのメモ
 
@@ -70,3 +71,15 @@ https://github.com/cond/marionette-gentle-introduction/commits/master
 * 一覧画面で、Showボタンをクリックすると、そのレコードの内容が表示される
 * 個別レコード表示画面のコントローラとビューは Showモジュールで定義している。
 * このバージョンではルータを使っていないので、URLは変わらないままである。
+
+
+<a name="routing"></a>
+### ルーティングを導入した
+
+**テキスト**: ""Implement routing, and first route"まで完了 (p77)
+
+**ソース**: [implement routing, and first route](https://github.com/cond/marionette-gentle-introduction/commit/1a3400f94f86ece51fdb36b942d2dc383d451878)
+
+* Routerを導入した。
+* まず、一覧ページに#contactsというルートを設定。
+* Routerは、ContactsAppモジュールで定義している。
