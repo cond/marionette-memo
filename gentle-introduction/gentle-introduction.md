@@ -20,8 +20,11 @@ https://github.com/cond/marionette-gentle-introduction/commits/master
 
 ### コンタクト先一覧を表示する
 
-[refactor app into modules](https://github.com/cond/marionette-gentle-introduction/commit/c2e8c43f38ba357417a828c09ec4152fcf723807)
+**テキスト**: "Structuring Code with Modules"の完了時点(p45)
+
+**ソース**: [refactor app into modules](https://github.com/cond/marionette-gentle-introduction/commit/c2e8c43f38ba357417a828c09ec4152fcf723807)
 
 コンタクト先3件(データは決め打ち)を画面に表示する。
 
 * CollectionViewを使っている。
+
