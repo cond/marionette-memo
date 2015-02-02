@@ -83,3 +83,13 @@ https://github.com/cond/marionette-gentle-introduction/commits/master
 * Routerを導入した。
 * まず、一覧ページに#contactsというルートを設定。
 * Routerは、ContactsAppモジュールで定義している。
+
+
+### 個別コンタクト表示画面にルーティングを導入した
+
+**テキスト**: "Adding a Show Route"まで完了 (p81)
+
+**ソース**: [add show route](https://github.com/cond/marionette-gentle-introduction/commit/0dce304a73624c7ee9a9e033e396d5175616e941)
+
+* 個別コンタクト表示画面に対して、contacts/:idというルートを設定している。
+* あとは、特に変わったことはしていない。
