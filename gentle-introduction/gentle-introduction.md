@@ -15,6 +15,7 @@
 * [テーブルの行のクリックで色(属性)が変わるようにする](#click_change_color)
 * [テーブルの行を削除する際に、フェードアウト効果をつける](#fade_out)
 * [ルーティングの導入](#routing)
+* [モデルが存在しない場合に別のビューを表示する](#show_empty_view)
 
 ## コミットごとのメモ
 
@@ -93,3 +94,12 @@ https://github.com/cond/marionette-gentle-introduction/commits/master
 
 * 個別コンタクト表示画面に対して、contacts/:idというルートを設定している。
 * あとは、特に変わったことはしていない。
+
+<a name="show_empty_view"></a>
+### 個別コンタクトを表示する際に、存在しない場合には別の画面を表示する
+
+**テキスト**: "Implementing a View for Nonexistent Contacts"まで完了 (p86)
+
+**ソース**: [implementing a View for Nonexistent Contacts](https://github.com/cond/marionette-gentle-introduction/commit/8f9c3a074f1e3a9e0ae3fbeda314e32ba453abc1)
+
+* show_controller.jsを変更して、モデルが存在しない場合には、別のビューShow.MissingContactを表示するようにしている。
